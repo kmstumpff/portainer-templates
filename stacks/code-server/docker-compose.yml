@@ -1,6 +1,7 @@
 version: '2'
 services:
   code-server:
+    user: "${UID:-1000}"
     container_name: ${CONTAINER_NAME:-code-server}
     image: codercom/code-server:latest
     restart: unless-stopped

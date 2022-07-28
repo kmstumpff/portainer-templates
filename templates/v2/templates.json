@@ -14,10 +14,9 @@
             },
             "env": [
                 {
-                    "name": "CONTAINER_NAME",
-                    "label": "CONTAINER_NAME",
-                    "default": "code-server",
-                    "description": "name of the docker container"
+                    "name": "UID",
+                    "label": "UID",
+                    "default": "1000"
                 },
                 {
                     "name": "CONFIG_PATH",
