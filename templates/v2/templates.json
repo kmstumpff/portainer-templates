@@ -20,6 +20,12 @@
                     "description": "name of the docker container"
                 },
                 {
+                    "name": "CONFIG_PATH",
+                    "label": "CONFIG_PATH",
+                    "default": "/home/kyle/docker/code-server/config",
+                    "description": "path to host folder to store config"
+                },
+                {
                     "name": "HTTP_PORT",
                     "label": "HTTP_PORT",
                     "default": "8080",

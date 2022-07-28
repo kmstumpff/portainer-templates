@@ -7,8 +7,4 @@ services:
     ports:
       - ${HTTP_PORT:-8080}:8080
     volumes:
-      - configvolume:/home/coder/.config
-volumes:
-  configvolume:
-    external:
-      name: ${CONTAINER_NAME:-code-server}-config-volume
+      - ${CONFIG_PATH:-/home/kyle/docker/code-server/config}:/home/coder/.config
